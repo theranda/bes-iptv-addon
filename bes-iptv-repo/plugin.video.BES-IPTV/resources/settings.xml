@@ -1,0 +1,10 @@
+﻿<settings>
+  <category label="BES-IPTV-Addon">
+    <setting id="Updatecommonresolvers" label="Update Commonresolver from Genesis" type="bool" default="true" visible="false"/>
+	<setting type="action" label="Version of Addon 2.1 - 11/28/2015 BES-IPTV" option="close" action="RunPlugin(plugin://plugin.video.BES-IPTV/?mode=7)" />
+        <setting type="action" label="[B]By: SejDin Xhaferaj[/B]" option="close" action="RunPlugin(plugin://plugin.video.BES-IPTV/?mode=7)" />
+        <setting id="ask_playlist_items" type="bool" label="Ask playlist items to choose from dialog -(Activate?)" default="false" />
+        <setting id="add_playlist" type="bool" label="Add items with multiple links as play lists -(Activate Multilink?)" default="false"/>
+        </category>
+
+</settings>
